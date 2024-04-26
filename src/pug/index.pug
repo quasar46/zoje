@@ -1,0 +1,479 @@
+extends templates/layout
+
+block main 
+    main
+        h1.visually-hidden Zoje sewing machine
+        .advantages 
+            .advantages__wrap
+                .advantages__item
+                    img.advantages__pic(src="img/a1.svg" alt="")
+                    h3.advantages__title Гарантированное качество
+                    p.advantages__text Как официальный представитель Zoje в Казахстане, мы обеспечиваем продукцию высокого стандарта и соответствующую официальным стандартам бренда.
+                .advantages__item
+                    img.advantages__pic(src="img/a2.svg" alt="")
+                    h3.advantages__title Быстрые и надежные поставки
+                    p.advantages__text Мы гарантируем своевременные поставки продукции по всему Казахстану, обеспечивая бесперебойное функционирование бизнеса наших клиентов.
+                .advantages__item
+                    img.advantages__pic(src="img/a3.svg" alt="")
+                    h3.advantages__title Техническая поддержка
+                    p.advantages__text Наша экспертная команда готова обеспечить профессиональную техническую поддержку, помогая клиентам максимально эффективно использовать оборудование Zoje.
+                .advantages__item
+                    img.advantages__pic(src="img/a4.svg" alt="")
+                    h3.advantages__title Поставки в Казахстан с 2015 года
+                    p.advantages__text С нами вы получаете надежного партнера, осуществляющего поставки на казахстанский рынок с 2015 года. Наш опыт - ваш успех в бизнесе!
+
+        .products 
+            ._container 
+                .tab#tab-1 
+                    .products__head
+                        h2.products__title Продукты
+                        .tab-wrap
+                            .tab-nav 
+                                button.tab-btn.tab-btn-active(data-target-id="0") Lockstitch Series
+                                button.tab-btn(data-target-id="1")  Overlock Series
+                                button.tab-btn(data-target-id="2")  Interlock Series
+                                button.tab-btn(data-target-id="3")  Pattern Machine
+                                button.tab-btn(data-target-id="4")  Special Series
+                    .tab-content 
+                        .tab-pane.tab-pane-show(data-id="0")
+                            .grid 
+                                .grid__item
+                                    img(src="img/p1.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p2.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p3.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p4.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p5.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p6.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p7.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p8.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                                .grid__item
+                                    img(src="img/p9.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p10.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                            .pagination 
+                                a.active 1 
+                                a(href="") 2
+                                a(href="") 3
+                                a(href="") 
+                                    svg(width="40" height="40")
+                                        use(href="#icn-arrow-pag")
+                        .tab-pane(data-id="1")  
+                            .grid 
+                                .grid__item
+                                    img(src="img/p1.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p2.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p3.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p4.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p5.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p6.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p7.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p8.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                                .grid__item
+                                    img(src="img/p9.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p10.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                            .pagination 
+                                a.active 1 
+                                a(href="") 2
+                                a(href="") 3
+                                a(href="") 
+                                    svg(width="40" height="40")
+                                        use(href="#icn-arrow-pag")
+
+                        .tab-pane(data-id="2")  
+                            .grid 
+                                .grid__item
+                                    img(src="img/p1.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p2.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p3.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p4.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p5.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p6.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p7.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p8.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                                .grid__item
+                                    img(src="img/p9.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p10.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                            .pagination 
+                                a.active 1 
+                                a(href="") 2
+                                a(href="") 3
+                                a(href="") 
+                                    svg(width="40" height="40")
+                                        use(href="#icn-arrow-pag")
+
+                        .tab-pane(data-id="3")  
+                            .grid 
+                                .grid__item
+                                    img(src="img/p1.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p2.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p3.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p4.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p5.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p6.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p7.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p8.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                                .grid__item
+                                    img(src="img/p9.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p10.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                            .pagination 
+                                a.active 1 
+                                a(href="") 2
+                                a(href="") 3
+                                a(href="") 
+                                    svg(width="40" height="40")
+                                        use(href="#icn-arrow-pag")
+
+                        .tab-pane(data-id="4")  
+                            .grid 
+                                .grid__item
+                                    img(src="img/p1.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p2.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p3.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p4.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p5.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p6.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p7.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p8.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                                .grid__item
+                                    img(src="img/p9.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right")
+                                .grid__item
+                                    img(src="img/p10.png" alt="")
+                                    .grid__block
+                                        h3.grid__title ZJ-430D SERIES
+                                        a(href="").show-more Узнать подробнее 
+                                            svg(width="7" height="12")
+                                                use(href="#icn-arrow-right") 
+                            .pagination 
+                                a.active 1 
+                                a(href="") 2
+                                a(href="") 3
+                                a(href="") 
+                                    svg(width="40" height="40")
+                                        use(href="#icn-arrow-pag")
+
+        .feedback 
+            ._container
+                .feedback__wrap 
+                    .feedback__content
+                        h2.feedback__title Сделаем ваш выбор проще!
+                        p.feedback__text Наши эксперты предоставят профессиональную консультацию по подбору продукции, соответствующей вашим потребностям. Обращайтесь без стеснения – Ваш правильный выбор для нас приоритет!
+                    .feedback__form
+                        h3.feedback__form-title Заполните данные 
+                        form.form(action="") 
+                            input.form__input.w50(type="text" placeholder="Имя" required)
+                            input.form__input.w50(type="text" placeholder="Фамилия")
+                            input.form__input(type="mail" placeholder="@mail")
+                            input.form__input(type="tel" placeholder="Номер телефона")
+                            input.btn.feedback__submit(type="submit" value="Оставить заявку") 
+                    .feedback-btn.btn.header__btn Оставить заявку
+
+        .reviews 
+            ._container 
+                h2.reviews__title Отзывы наших клиентов
+                .reviews__wrap 
+                    .reviews__item
+                        <iframe width="560" height="181" src="https://www.youtube.com/embed/og22-ppQGM0?si=X4JmZiSwUHkGORuV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    .reviews__item
+                        <iframe width="560" height="181" src="https://www.youtube.com/embed/og22-ppQGM0?si=X4JmZiSwUHkGORuV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                    .reviews__item
+                        <iframe width="560" height="181" src="https://www.youtube.com/embed/og22-ppQGM0?si=X4JmZiSwUHkGORuV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    .reviews__item
+                        <iframe width="560" height="181" src="https://www.youtube.com/embed/og22-ppQGM0?si=X4JmZiSwUHkGORuV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    .reviews__item
+                        <iframe width="560" height="181" src="https://www.youtube.com/embed/og22-ppQGM0?si=X4JmZiSwUHkGORuV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        .about 
+            ._container
+                .about__inner
+                    h2.about__title О компании
+                    include modules/history
+                    .about__content 
+                        .about__content-text 
+                            p Компания ZOJE, основанная в 1994 году, с уставным капиталом 688 миллионов юаней и годовым объемом производства 800 000 швейных машин, является ведущим производителем в области швейной промышленности. 
+                            p Сфокусированная на передовых технологиях, она обладает современным автоматизированным оборудованием для литья, обработки, покрытия и сборки. С научно исследовательским институтом и статусом Национального высокотехнологичного предприятия, ZOJE создала уникальный промышленный кластер. 
+                            p Продукция компании, с высокой узнаваемостью бренда и репутацией на мировом рынке, предлагает полные категории высококачественных швейных решений. ZOJE стремится стать мировым лидером в интеллектуальных швейных технологиях, принося ценность клиентам по всему миру и вдохновляя их на умное шитье!"
+                        img(src="img/back1.png" alt="")
+
+        include modules/product

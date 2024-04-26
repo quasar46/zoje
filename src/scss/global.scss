@@ -1,0 +1,117 @@
+// @import "utils/stylesheet";
+// @import "./node_modules/normalize.css/normalize";
+
+// @import "mixins/media";
+// @import "utils/variables";
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap");
+@import "utils/swiper-bundle.min";
+
+:root {
+  --icn-color: #B2B2B2;
+}
+
+*,
+*::before,
+*::after {
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "HelveticaNeueCyr", sans-serif;
+}
+
+body {
+  color: #3e3e3f;
+  margin: 0;
+  &.hidden {
+    overflow: hidden;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "HelveticaNeueCyr";
+}
+
+p {
+  color: #3e3e3f;
+
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px; /* 150% */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  font-family: "HelveticaNeueCyr";
+}
+
+figure {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  background-color: transparent;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+._container {
+  max-width: 1030px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.vectors {
+  display: none;
+}
+
+.show-more {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #219b44;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+  @media (max-width: 767px) {
+    font-size: 13px;
+  }
+}

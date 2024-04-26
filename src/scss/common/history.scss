@@ -1,0 +1,32 @@
+.about-history__slider-nav {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  // margin-left: 28px;
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #000;
+  }
+  span {
+    // font-size: 0;
+    height: 7px;
+    width: 1px;
+    background-color: #000;
+    margin: 0 !important;
+    margin-top: -2% !important;
+    cursor: pointer;
+    &:nth-child(7n), &:first-child {
+      height: 19px;
+    }
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 70px;
+  }
+}

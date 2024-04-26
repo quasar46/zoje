@@ -1,0 +1,36 @@
+.product-table {
+  .row {
+    display: flex;
+	gap: 8px;
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+    .col {
+      &:first-child {
+        color: #6a6a6c;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 17px; /* 130.769% */
+        max-width: 291px;
+        width: 100%;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          border-bottom: 1px dashed #c5c5c5;
+          top: 100%;
+          left: 0;
+          width: 100%;
+        }
+      }
+      &:nth-child(2) {
+        color: #3e3e3f;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px; /* 130.769% */
+      }
+    }
+  }
+}

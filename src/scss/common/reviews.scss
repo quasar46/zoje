@@ -1,0 +1,34 @@
+.reviews {
+  padding: 90px 0;
+}
+
+.reviews__title {
+  color: #888;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 200;
+  margin-bottom: 40px;
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+	font-size: 16px;
+  }
+}
+
+.reviews__wrap {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+}
+
+.reviews__item iframe {
+  width: 100%;
+  height: 181px;
+  @media (max-width: 767px) {
+    height: 164px;
+  }
+}

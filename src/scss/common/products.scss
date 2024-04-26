@@ -1,0 +1,31 @@
+.products {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  background-color: #fff;
+  @media (max-width: 767px) {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.products__title {
+  color: #888;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 27px; /* 103.846% */
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+.products__head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: 25px;
+  }
+}
